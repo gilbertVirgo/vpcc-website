@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -14,78 +13,28 @@
 			rel="stylesheet"
 		/>
 
-		<style>
-			html,
-			body {
-				margin: 0;
-				padding: 0;
-			}
+		<link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
 
-			html {
-				min-height: 100vh;
-			}
-
-			body {
-				height: 100%;
-				font-family: "Nunito", sans-serif;
-				font-weight: 300;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-			}
-
-			.container {
-				padding: 30px;
-				box-sizing: border-box;
-				/* margin: 0 auto; */
-				max-width: 560px;
-			}
-
-			.container > * {
-				display: block;
-				margin-bottom: 30px;
-			}
-
-			a {
-				text-decoration: none;
-				font-weight: bold;
-				color: inherit;
-			}
-			a:hover {
-				text-decoration: underline;
-			}
-
-			.frame-container {
-				width: 100%;
-				padding-bottom: 60%;
-				position: relative;
-			}
-
-			@media screen and (min-width: 900px) {
-				.frame-container {
-					left: -170px;
-					width: 900px;
-					padding-bottom: 500px;
-				}
-			}
-
-			iframe {
-				position: absolute;
-				left: 0;
-				top: 0;
-			}
-		</style>
+		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
+		<div class="logo-wrapper">
+			<a href="index.html"><img src="./assets/logo.svg" /></a>
+		</div>
 		<div class="container">
-			<img src="./assets/logo.svg" width="300px" />
+			<p style="margin-bottom: 0"><small>Welcome to</small></p>
+			<h1 style="margin-top: 0">Victoria Park Community Church</h1>
 			<p>
 				We meet on <strong>Sundays</strong>, from
 				<strong>6:00pm-8:00pm</strong> at
 				<strong>The Canal Club Community Centre, E2 9HP</strong>.
 			</p>
 			<p>
-				Please contact
+				Find our
+				<a href="doctrinal-basis.html">Doctrinal Basis</a> here.
+			</p>
+			<p>
+				Contact
 				<a href="mailto:ben@vpcc.church">ben@vpcc.church</a> if you have
 				any questions, or find us on Instagram at
 				<a href="https://instagram.com/vpcc.church">@vpcc.church</a>.
@@ -101,6 +50,9 @@
 					referrerpolicy="no-referrer-when-downgrade"
 				></iframe>
 			</div>
+			<footer>
+				<small>Copyright Victoria Park Community Church 2023</small>
+			</footer>
 		</div>
 	</body>
 </html>
